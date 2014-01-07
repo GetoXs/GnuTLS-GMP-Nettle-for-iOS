@@ -5,13 +5,13 @@ GnuTLS 3.1.* build scripts for iPhoneOS and iPhoneSimulator using official XCode
 Please read all this readme before you start.
 
 Result files will be in created lib/ and include/ directories for i386 and armv7 architectures.
-To use the libraries, include the library from lib/ directory and headers from include/.
+To use those libraries, include the library from lib/ directory and headers from include/.
 
 If you have any problem don't hesitate to contact to me.
 
  
 ####Note for GnuTLS 3.2.* version:####
-I couldn't compile 3.2.* version (tested 3.2.8) of GnuTLS becouse (I think) it's need special pkg-config binaries to find Nettle library.
+I couldn't compile 3.2.* version (tested 3.2.8) of GnuTLS because (I think) it needs special pkg-config binaries to find Nettle library.
  
 
 ####License:####
@@ -60,7 +60,7 @@ Build scripts will create in current folder with additional structure:
 		`uname -m`
 
 ###Thanks to:###
-* Really helpful build scripts, but for older version of GnuTLS:
+* Really helpful build scripts, for older version of GnuTLS:
 >* <https://github.com/yep/gnutls-gpg-gpgme-for-ios>
 >* <https://github.com/x2on/GnuTLS-for-iOS>
 >* <https://gist.github.com/morgant/1753095>
