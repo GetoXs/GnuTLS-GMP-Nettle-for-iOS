@@ -41,7 +41,7 @@ Build scripts will create in current folder with additional structure:
 ####Tested versions (without errors) on:####
 * OSX	10.8.5
 * Xcode	5.0
-
+* 
 * GMP 	5.1.3
 * Nettle	2.7.1
 * XZ		5.0.5
